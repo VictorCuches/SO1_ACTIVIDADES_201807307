@@ -39,3 +39,9 @@ User  | Kernel Mode
 Cuando una aplicación se ejecuta en el Modo de Usuario y necesita acceder a recursos del sistema o realizar operaciones que requieran privilegios elevados, debe solicitarlos al Kernel. Esto se logra mediante llamadas de sistema (system calls), que actúan como puentes para que las aplicaciones puedan solicitar servicios al Kernel. El Kernel verifica la validez de la solicitud y, si es legítima, ejecuta la operación en nombre de la aplicación. Después de completar la operación, el control vuelve al Modo de Usuario.
 
 Esta separación entre el Modo de Usuario y el Modo de Kernel es fundamental para la seguridad y estabilidad del sistema. Evita que aplicaciones maliciosas o con errores afecten directamente al Kernel o a otros procesos en ejecución, lo que podría provocar fallas del sistema o vulnerabilidades de seguridad.
+
+
+## Referencias
++ Soto, Juan. Julio, 2020. ¿Qué es kernel y para qué sirve?. Geeknetic. Recuperado de: https://www.geeknetic.es/Kernel/que-es-y-para-que-sirve
++ Roca, Claudia. ¿Qué es Kernel, cuál es su trabajo y para qué funciona?. ThePowermba Recuperado de: https://www.thepowermba.com/es/blog/que-es-el-kernel-cual-es-su-trabajo-y-como-funciona 
++ Baeldung. November, 2020. What's the difference between User and Kernel Modes?. Recuperado de: https://www.baeldung.com/cs/user-kernel-modes#:~:text=Kernel%20mode%2C%20also%20known%20as,privileged%20mode%20for%20user%20programs. 

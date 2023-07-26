@@ -1,4 +1,4 @@
-#Actividad No.1
+# Actividad No.1
 
 Nombre  | Carnet
 ------------- | -------------
@@ -11,14 +11,14 @@ Este núcleo de los sistemas operativos se ejecuta en modo privilegiado con acce
 
 Los tipos de kernel se pueden clasificar de la siguiente manera:
 
-#####Esenciales
+##### Esenciales
 + Kernel monolítico: es un Kernel de gran tamaño que puede gestionar todas las tareas. Se encarga de la gestión de memoria y procesos, así como de la comunicación entre los procesos y el soporte de las diferentes funciones de los drivers y el hardware. 
 
 + Microkernel: los Kernel que están diseñados con pequeños tamaños tienen una clara función: evitar el colapso total del sistema en caso de un fallo. Para cumplir con todas las tareas como un Kernel monolítico cuenta con diferentes módulos.
 
 + Kernel híbrido: combinación entre el microkernel y el Kernel monolítico. Nos encontramos ante un Kernel grande, pero compacto y que puede ser modulado y otras partes del mismo Kernel pueden cargarse de manera dinámica. 
 
-#####No Esenciales
+##### No Esenciales
 + Nanokernel: si el microernel es pequeño, este es todavía más reducido, pero su uso está destinado a sistemas embebidos ya que el nivel de fiabilidad es mayor. 
 
 + Exokernel: la estructura que propone un exokernel es innovadora ya que se estructura de manera vertical. En un exokernel la toma de decisiones está a cargo de los programas, para hacer el uso de los recursos del hardware en ciertas bibliotecas. 
@@ -28,7 +28,7 @@ Los tipos de kernel se pueden clasificar de la siguiente manera:
 + Anykernel: otro concepto innovador que busca conservar las cualidades de los Kernel monolíticos, pero también facilitar el desarrollo de los controladores, al mismo tiempo que ofrece mayor seguridad al usuario. 
 
 
-##User vs Kernel Mode
+## User vs Kernel Mode
 
 User  | Kernel Mode
 ------------- | -------------

@@ -1,7 +1,6 @@
 ## ACTIVIDAD #2 
 
-Para realizar la configuración del cronjob 
-Ejecute el siguiente comando para abrir el crontab  
+Para realizar la configuración del cronjob ejecute el siguiente comando para abrir el crontab  
 
 `crontab -e`
 
@@ -13,12 +12,10 @@ Agregue la siguiente linea en el archivo
 
 ![](img/captura2.png)
 
-Para verificar el contenido del log 
-Ejecture el siguiente comando 
+Para verificar el contenido del log ejecute el siguiente comando 
 
 `cat /tmp/<fecha>/saludos.log`
 
-Para verificar que el cronjob se ejecute correctamente
-Ejecute el siguiente comando 
+Para verificar que el cronjob se ejecute correctamente utilice el siguiente comando 
 
 `grep actividad_dos /var/log/syslog`

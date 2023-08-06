@@ -9,6 +9,16 @@ Ejecute el siguiente comando para abrir el crontab
 
 Agregue la siguiente linea en el archivo 
 
-`*/5 * * * * /Documentos/consultar_github.sh`
+`*/5 * * * * /Documentos/actividad_dos.sh`
 
 ![](img/captura2.png)
+
+Para verificar el contenido del log 
+Ejecture el siguiente comando 
+
+`cat /tmp/<fecha>/saludos.log`
+
+Para verificar que el cronjob se ejecute correctamente
+Ejecute el siguiente comando 
+
+`grep actividad_dos /var/log/syslog`

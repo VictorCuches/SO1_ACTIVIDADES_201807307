@@ -2,21 +2,27 @@
 ## Parte #1: Gestion de usuarios
 ### Creacion de usuarios
 `sudo adduser usuario1`
+
 `sudo adduser usuario2`
+
 `sudo adduser usuario3`
 
 ![](img/1_usuarios.png)
 
 ### Asignacion de contraseñas
 `sudo passwd usuario1`
+
 `sudo passwd usuario2`
+
 `sudo passwd usuario3`
 
 ![](img/1_contraseñas.png)
 
 ### Informacion de usuarios
 `id usuario1`
+
 `id usuario2`
+
 `id usuario3`
 
 ![](img/1_info.png)
@@ -29,18 +35,21 @@
 ## Parte #2: Gestion de grupos
 ### Creacion de grupos
 `sudo addgroup grupo1`
+
 `sudo addgroup grupo2`
 
 ![](img/2_grupos.png)
 
 ### Agregar usuarios a grupos
 `sudo adduser usuario1 grupo1`
+
 `sudo adduser usuario2 grupo2`
 
 ![](img/2_usuario_grupo.png)
 
 ### Verificar membresia
 `groups usuario1`
+
 `groups usuario2`
 
 ![](img/2_grupo_usuario.png)
@@ -53,14 +62,18 @@
 ## Parte #3: Gestion de permisos
 ### Creacion de archivos y directorios
 `echo "Contenido del archivo 1, escrito por usuario1" > ~/archivo1.txt`
+
 `mkdir ~/directorio1`
+
 `echo "Contenido del archivo 2" > ~/directorio1/archivo2.txt`
 
 ![](img/3_crear_archivo.png)
 
 ### Verificar permisos
 `ls -l ~/archivo1.txt`
+
 `ls -ld ~/directorio1`
+
 `ls -ld ~/directorio1/archivo2.txt`
 
 ![](img/3_permisos.png)
@@ -87,14 +100,18 @@
 
 ### Comprobacion de acceso
 `su usuario2`
+
 `cat ~usuario1/archivo1.txt`
+
 `cat ~usuario1/directorio1/archivo2.txt`
 
 ![](img/3_comprobar_permiso.png)
 
 ### Verificacion final
 `ls -l ~usuario1/archivo1.txt`
+
 `ls -ld ~usuario1/directorio1`
+
 `ls -l ~usuario1/directorio1/archivo2.txt`
 
 ![](img/3_verificacion.png)

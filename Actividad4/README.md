@@ -1,4 +1,7 @@
+
+
 # ACTIVIDAD #4
+---
 
 | Instrucciones | 
 |----------|
@@ -9,10 +12,12 @@
 ## Paso #1
 Crear el script que imprima el saludo y la fecha, cree un archivo llamado script_saludo.sh 
 
-```while true; do
+```bash
+while true; do
     echo "Hola actividad 4. Fecha: $(date)"
-    sleep 5  # Intervalo de tiempo en segundos
-done```
+    sleep 5
+done
+```
 
 ## Paso #2 
 Crear el systemd unit para el servicio, cree un archivo saludo.service
@@ -25,7 +30,7 @@ Luego de ejecutar el comando agregue el siguiente contenido para el servicio
 
 ```
 [Unit]
-Description=Servicio de impresión de saludo y fecha
+Description=Servicio de impresión de saludo y fecha para actividad 4
 
 [Service]
 Type=simple

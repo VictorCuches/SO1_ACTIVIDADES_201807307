@@ -1,0 +1,5 @@
+Crear un systemd unit de tipo servicio para ejecutar un script imprima un saludo y la fecha actual. 
+
+Opcionalmente el script puede ser mas complejo para que este no termine y se quede imprimiendo hola mundo cada cierta cantidad de tiempo.
+
+Subir un readme file explicando el proceso de instalación y uso del servicio.
